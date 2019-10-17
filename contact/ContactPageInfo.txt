@@ -1,0 +1,17 @@
+ssn			-	nnn-nn-nnnn format
+first name	-	Alpha only (25 char max).
+last  name	-	Start with alpha.an contain
+				a single ' and/or - (25 char max).
+address		-	75 char max
+city		-	25 char max
+state		-	Use https://www.freeformatter.com/usa-state-list-html-select.html
+zip			-	nnnnn or nnnnn-nnnn
+phone#		-	nnn-nnn-nnnn
+gender		-	radio buttons (Male or Female)
+age			-	radio buttons (must be 15 - 100)
+				15 - 25, 26 - 40, 41 - 60, 61 - 80, 81 - 100
+reason4Join	-	checkboxes (one or more)
+				get healthy, stay healthy, lose weight,
+				add muscle tone
+submit		-	Bring up .html file with all inputted values
+reset		-	Reset all values to their default values

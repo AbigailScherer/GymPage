@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="contact/css/normalize.css">
+  <link rel="stylesheet" href="contact/css/contact.css">
+  <script src="contact/js/contact.js"></script>
+</head>
+<body>
+  <header>
+    </header>
+      <nav><ul>
+        <img src="gym.png" alt="Gym Icon" height="50" width="50">
+        <li> <a href="main.html">Home</a></li>
+        <li> <a href="about.html">About</a></li>
+        <li> <a href="faq.html">FAQ</a></li>
+        <li> <a href="bmi.html">BMI</a></li>
+        <li> <a href="#">Contact</a></li>
+      </ul></nav>
+      <main>
+      <section>
+        <label for="ssn">Social Security Number:</label>
+          <input class="required-input" id="ssn" maxlength="9" type="text" name="ssn" placeholder="123-45-6789">
+            <br>
+          <label for="fname">First Name:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="fname" id="fname" maxlength="50" placeholder="First Name (1-50 characters)" required><br>
+
+          <label for="lname">Last Name:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="lname" id="lname" maxlength="50" placeholder="Last Name (1-50 characters)" required><br>
+            <label for="address">Address:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="text" name="address" id="address"><br>
+
+            <label for="city">City:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              <input type="text" name="city" id="city"><br>
+
+          <label for="state">State:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              <select>
+              <option value="">Select State</option>
+            	<option value="AL">Alabama</option>
+            	<option value="AK">Alaska</option>
+            	<option value="AZ">Arizona</option>
+            	<option value="AR">Arkansas</option>
+            	<option value="CA">California</option>
+            	<option value="CO">Colorado</option>
+            	<option value="CT">Connecticut</option>
+            	<option value="DE">Delaware</option>
+            	<option value="DC">District Of Columbia</option>
+            	<option value="FL">Florida</option>
+            	<option value="GA">Georgia</option>
+            	<option value="HI">Hawaii</option>
+            	<option value="ID">Idaho</option>
+            	<option value="IL">Illinois</option>
+            	<option value="IN">Indiana</option>
+            	<option value="IA">Iowa</option>
+            	<option value="KS">Kansas</option>
+            	<option value="KY">Kentucky</option>
+            	<option value="LA">Louisiana</option>
+            	<option value="ME">Maine</option>
+            	<option value="MD">Maryland</option>
+            	<option value="MA">Massachusetts</option>
+            	<option value="MI">Michigan</option>
+            	<option value="MN">Minnesota</option>
+            	<option value="MS">Mississippi</option>
+            	<option value="MO">Missouri</option>
+            	<option value="MT">Montana</option>
+            	<option value="NE">Nebraska</option>
+            	<option value="NV">Nevada</option>
+            	<option value="NH">New Hampshire</option>
+            	<option value="NJ">New Jersey</option>
+            	<option value="NM">New Mexico</option>
+            	<option value="NY">New York</option>
+            	<option value="NC">North Carolina</option>
+            	<option value="ND">North Dakota</option>
+            	<option value="OH">Ohio</option>
+            	<option value="OK">Oklahoma</option>
+            	<option value="OR">Oregon</option>
+            	<option value="PA">Pennsylvania</option>
+            	<option value="RI">Rhode Island</option>
+            	<option value="SC">South Carolina</option>
+            	<option value="SD">South Dakota</option>
+            	<option value="TN">Tennessee</option>
+            	<option value="TX">Texas</option>
+            	<option value="UT">Utah</option>
+            	<option value="VT">Vermont</option>
+            	<option value="VA">Virginia</option>
+            	<option value="WA">Washington</option>
+            	<option value="WV">West Virginia</option>
+            	<option value="WI">Wisconsin</option>
+            	<option value="WY">Wyoming</option>
+            </select><br />
+
+          <label for="zip">Zip Code:</label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <input type="text" name="zip" id="zip" required><br>
+          <label for="tel">Cell Phone:</label>  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <input type="tel" name="tel" id="tel" required><br />
+          <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male" />Male
+            <input type="radio" name="gender" id="female" value="female" />Female
+            <br />
+          <label for="age">Age:</label>
+            <input type="radio" name="age" id="15-25" value="15-25" />15-25
+            <input type="radio" name="age" id="26-40" value="26-40" />26-40
+            <input type="radio" name="age" id="41-60" value="41-60" />41-60
+            <input type="radio" name="age" id="61-80" value="61-80" />61-80
+            <input type="radio" name="age" id="81-100" value="81-100" />81-100
+            <br />
+          <label for="reason">Reason:</label>
+            <input type="checkbox" name="reason" id="ghealthy" value="ghealthy" />Get Healthy
+            <input type="checkbox" name="reason" id="shealthy" value="shealthy" />Stay Healthy
+            <input type="checkbox" name="reason" id="lose" value="lose" />Lose Weight
+            <input type="checkbox" name="reason" id="build" value="build" />Add Muscle
+          <br />
+          <input type="submit" value="Submit" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset" />
+      </section>
+
+      <aside>
+
+      </aside>
+      <footer>
+        <p>
+          HOT3 - &copy; 2018 Abigail Scherer
+        </p>
+      </footer>
+    </main>
+</body>
+</html>

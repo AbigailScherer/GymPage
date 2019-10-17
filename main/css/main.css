@@ -1,0 +1,30 @@
+body{
+  background: #88BBD6;
+  color: black;
+  margin-left: 5em;
+}
+
+a:focus, a:hover{
+  background: #E9E9E9;
+  color: #88BBD6;
+}
+nav{
+  background: #99D3DF;
+}
+ul #image_list {
+  display: none;
+}
+nav ul{
+    list-style-type: none;
+    padding: 1em 0;
+}
+nav ul li{
+  display: inline;
+  padding: 0 1.5em;
+}
+li{
+  display:inline;
+}
+section{
+  width: 80em;
+}

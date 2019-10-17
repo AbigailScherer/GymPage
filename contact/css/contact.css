@@ -1,0 +1,16 @@
+body{
+  background: #88BBD6;
+  color: black;
+  margin-left: 5em;
+}
+nav{
+  background: #99D3DF;
+}
+nav ul{
+    list-style-type: none;
+    padding: 1em 0;
+}
+nav ul li{
+  display: inline;
+  padding: 0 1.5em;
+}
